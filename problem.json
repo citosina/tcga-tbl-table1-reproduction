@@ -1,0 +1,22 @@
+{
+  "id": "tbl_npjo2025_table1",
+  "title": "Reproduce Table 1 from Lakbir et al. (npj Precision Oncology, 2025)",
+  "description": "Reproduce Table 1 ('Pan-cancer survival landscape of genomic instability measures with respect to disease-free survival') from Lakbir et al., 2025. The task involves preparing the open-access TCGA input data (MAF, CNV segmentation, and clinical files), describing the modeling steps, and providing the extracted table values as a clean CSV.",
+  "paper": {
+    "title": "Tumor break load quantitates structural variant–associated genomic instability with biological and clinical relevance across cancers",
+    "authors": "Lakbir S. et al.",
+    "journal": "npj Precision Oncology",
+    "year": 2025,
+    "doi_url": "https://www.nature.com/articles/s41698-025-00922-9"
+  },
+  "figure_reference": "Table 1",
+  "figure_type": "table",
+  "input_data_dir": "input_data",
+  "metadata_dir": "metadata",
+  "solution_dir": "extracted_solution",
+  "expected_solution_file": "extracted_solution_table1.csv",
+  "notes": [
+    "Raw TCGA files are not included in the repository due to size constraints.",
+    "Instead, the input_data directory contains manifests and a download.sh script that fetch open-access TCGA mutation and copy-number data.",
+    "The transcribed CSV in extracted_solution/ contains the direct values from Table 1."
+  ]
