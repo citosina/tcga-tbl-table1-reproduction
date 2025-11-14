@@ -5,6 +5,5 @@ input_data/*.maf
 input_data/*.maf.gz
 input_data/*.seg
 input_data/*.seg.gz
-input_data/*.tsv
 input_data/*.xlsx
 *.DS_Store
